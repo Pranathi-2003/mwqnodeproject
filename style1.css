@@ -1,0 +1,116 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+body {  
+    font-family: Calibri, Helvetica, sans-serif;  
+      
+}
+button {   
+  background-color:gray;   
+  width: 100%;  
+  color:white;   
+  padding: 15px;   
+  margin: 10px;   
+  border: none;   
+  border-radius: 1rem;
+  cursor: pointer;   
+}   
+
+.details input,option{   
+  width: 100%;   
+  margin: 8px 0;  
+  padding: 12px 20px;   
+  display: inline-block;      
+  box-sizing: border-box;   
+}  
+button:hover {   
+  opacity: 0.7;   
+}   
+.cancelbtn {   
+  width: auto;   
+  padding: 10px 18px;  
+  margin: 10px 5px;  
+}   
+.container {   
+  padding: 25px;   
+  background-color: lightblue;  
+}   
+
+/* management login */
+.main{
+  width:100vm;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.inner{
+  width:60vm;
+  background-color: white;
+  padding:3rem 8rem;
+  
+}
+
+
+/* official login */
+.main-official_login{
+  width:100vm;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(lightblue,lightgrey);
+}
+.inner-official_login{
+  width:60vm;
+  background-color: white;
+  padding:3rem 8rem;
+  border-style: solid;
+}
+
+
+
+/* parent login */
+.main-parent_login{
+  width:100vm;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color:lightblue;
+}
+.inner-parent_login{
+  width:60vm;
+  background-color: white;
+  padding:3rem 8rem;
+  
+}
+
+/* teacher login */
+.main-teacher-login{
+  width:100vm;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color:lightblue;
+}
+.inner-teacher-login{
+  width:60vm;
+  background-color: white;
+  padding:3rem 8rem;
+  
+}
+
+/* student login */
+.main-student-login{
+  width:100vm;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: white;
+
+}
+.inner-student-login{
+  width:60vm;
+  background-color:lightblue;
+  padding:3rem 8rem;
+  
+}

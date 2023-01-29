@@ -1,0 +1,172 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--for icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <title>Document</title>
+    <style>
+        table{
+          border:2px solid black; 
+          border-collapse:collapse;
+          padding:15px;
+        }
+        th,td {
+          border: 0.5px solid black;
+          padding:15px;
+        }
+        th{
+            background-color:cadetblue;
+            color: aliceblue;
+        }
+        .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      img {
+        width:70%;
+        height: 70%;
+        float:right;
+      }
+      .image {
+        flex-basis: 100%;
+        width:300px;
+        float:left;
+      }
+      .navbar-toggler::after{
+        padding-top:500px;
+      }
+    </style>
+</head>
+
+<body style="margin:30px;background-color:beige">
+    <!-- header -->
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top" role="navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home"><i class="bi-house-door-fill">Home</i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#study"><i class="bi-list-ul">Academics</i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#Tech"><i class="bi-list-ul">Technical skills</i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects"><i class="bi-info-lg">Projects</i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#achieve"><i class="bi-info-lg">Achievements</i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi-person-lines-fill">Contact me</i></a></li>
+                </ul>
+            </div>
+    </nav>
+    <div id="home">
+        <div class="container pt-10"style="padding-top:50px">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1 class="display-3">Jane Doe</h1>
+                    <p>janedoe@gmail.com</p>
+                    <hr>
+                    <b>Career Ojective</b>
+                    <p>Seeking a responsible career oppurtunity in field of Computer Science where I can utilize my logical and technical skills towards personal and professional development</p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="image">
+                        <img src="https://image.shutterstock.com/image-vector/cartoon-woman-icon-260nw-741897928.jpg" alt="pranathi" class="rounded-circle"background-color: cornsilk />
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div id="study">
+        <h1 class="display-3">Academics</h1>
+        <div class="table-responsive">
+        <table>
+            <tr>
+                <th>Course details</th>
+                <th>Instituition</th>
+                <th> University/Board</th>
+                <th> Year of passing </th>
+                <th>CGPA</th>
+            
+            <tr>
+                <td>Bachelor of Technology(Computer Science)
+                <td>Keshav Memorial Institute of Technology-HYD </td>
+                <td>JNTUH  </td>
+                <td>2025  </td>
+                <td>9.33</td>
+            </tr>
+            <tr>
+                <td>Intermediate-MPC</td>
+                <td>Narayana Junior College,TS</td>
+                <td>JNTUH</td>
+                <td>2021</td>
+                <td>99%</td>
+            </tr>
+            <tr>
+                <td>School of secondary education</td>
+                <td>Narayana Junior School,TS</td>
+                <td>SSC</td>
+                <td>2019</td>
+                <td>10 CGPA</td>
+            </tr>
+    
+        </table>
+        </div>
+    </div>
+    <div id="Tech">
+        <h1 class="display-3">Tech Skills</h1>
+        <br>
+        <p><b>Programming languages</b></p>
+        <ul>
+            <li>c</li>
+            <li>python</li>
+            <li>java</li>
+        </ul>
+        <p><b>Databases</b></p>
+        <ul>
+            <li>mysql</li>
+        </ul>
+        <p><b>Web technologies</b></p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BootStrap</li>
+            <li>Node</li>
+        </ul>
+    </div>
+    <div id="projects">
+        <h1 class="display-3">Projects</h1>
+        
+        <ul>
+            <li>mental Wellness quotient</li>
+            <li>Re-organized something to make it work better.</li>
+            <li>Come up with a new idea that improved things.</li>
+            <li>Developed or implemented new procedures or systems.</li>
+            <li>Worked on special projects.</li>
+            <li>Received awards.</li>
+        </ul>
+    </div>
+    <div id="achieve">
+        <h1 class="display-3">Achievements</h1>
+       
+        <ul>
+            <li>Re-organized something to make it work better.</li>
+            <li>Come up with a new idea that improved things.</li>
+            <li>Developed or implemented new procedures or systems.</li>
+            <li>Worked on special projects.</li>
+            <li>Received awards.</li>
+        </ul>
+    </div>
+    <div id="contact">
+        <h1 class="display-3">Contact Us</h1>
+        <p>e-mail:janedoe@gmail.com</p>
+        <p>phn no:2987654321</p>
+        <p>address:9/8/6543,shivaji nagar,hyd</p>
+
+    </div>
+</div>
+    
+</body>
+</html>

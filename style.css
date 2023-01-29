@@ -1,0 +1,122 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+/* header */
+.nav-item{
+  text-size-adjust: 10rem;
+  color:white;
+  padding-left:2rem;
+}
+
+
+
+/* body */
+.landing_about_section{
+  background: url(../images/bgpic.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:9rem 0
+}
+ 
+.landing_about_section p,h2{
+  color:white;
+  margin-bottom: 2rem;
+}
+.landing_about_section a{
+  -webkit-text-fill-color: white;
+  border:1rem;
+  border-color:white;
+}
+
+
+
+/* about page */
+.main{
+  padding-left: 5rem;
+  width:80%;
+}
+.main p,li{
+  padding:0.5rem;
+}
+
+
+/* login page */
+
+
+/* Float four columns side by side */
+.login.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+.login.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/* Style the counter cards */
+.login.card {
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+
+}
+.login.card:hover{
+    box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.login.responsive{
+    width:100%;
+    height:auto;
+}
+.login h2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
+/* footer */
+.footer{
+  width:100%;
+  text-align:center;
+  padding:30px 0;
+}
+.footer h4{
+  margin-bottom:25px;
+  margin-top:20px;
+  font-weight:600;
+  padding:10px;
+  background-color: lightgray;
+}
+.icons .fa{
+  color:red;
+  margin:0 13px;
+  cursor:pointer;
+  padding:18px 0;
+}
+.fa-heart-o{
+  color:red;
+}
+
+.well h1{
+  text-align: center;
+}
+.well h2{
+  color:black;
+}
+
+

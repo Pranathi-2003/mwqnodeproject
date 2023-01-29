@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/* Style the counter cards */
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+
+}
+.card:hover{
+    box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.responsive{
+    width:100%;
+    height:auto;
+}
+.login h2{
+    text-align: center;
+    margin-top: 5%;
+}
+</style>
+
+
+
+
+</head>
+<body>
+  <section class="login">
+    <h2>SELECT YOUR ROLE</h2><br><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>STUDENT</h3>
+      <a href="/loginstu.html"><img src="/images/zstudent.jpg" alt="student" class="card-img-top responsive"></a>
+    </div>
+</div>
+  <div class="column">
+    <div class="card">
+      <h3>PARENT</h3>
+      <a href="/login_parent.html"><img src="/images/zparent.png" alt="student" class="card-img-top responsive"></a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>TEACHER</h3>
+      <a href="/login_teacher.html"><img src="/images/zteacher.png" alt="student" class="card-img-top responsive"></a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>SCHOOL</h3>
+      <a href="/login_management.html"><img src="/images/zmanager.png" alt="student" class="card-img-top responsive"></a>
+    </div>
+  </div>
+</div>
+<div class="column">
+    <div class="card">
+      <h3>OFFICIAL</h3>
+      <a href="/login_official.html"><img src="/images/zofficial.jpg" alt="student" class="card-img-top responsive"></a>
+    </div>
+  </div>
+  
+
+
+  </section>
+
+</body>
+</html>
